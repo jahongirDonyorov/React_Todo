@@ -1,0 +1,33 @@
+@import'../../style/style';
+.todo{
+  display: flex;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+  justify-content: space-between;
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &.done{
+    border-left: 2px solid $olivine;
+    padding-left: 8px;
+  }
+  &__bottom{
+    display: flex;
+    align-items: center;
+  }
+  &__deadline{
+    color:$red;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  &__owner{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}

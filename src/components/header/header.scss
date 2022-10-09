@@ -1,0 +1,21 @@
+@import'../../style/style.scss';
+
+.header{
+  display: flex;
+  input {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  &__btns{
+    display: flex;
+    gap: 5px;
+    button{
+     &.active{
+       background-color: $blue;
+       color: #fff;
+     }
+    }
+  }
+}

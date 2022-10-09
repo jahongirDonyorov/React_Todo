@@ -1,0 +1,25 @@
+.add{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  align-items: center;
+ &__input{
+   width: 50%;
+   padding: 5px;
+   height: 100%;
+   display: flex;
+ } 
+ input{
+   display: block;
+   width: 100%;
+   border: 1px solid #e7e7e7;
+   padding: 10px;
+   border-radius: 5px;
+ }
+ button{
+   padding: 11px;
+   width: 100%;
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "title": "Js Takrorlash",
+      "owner": "Jahon",
+      "deadline": "2022-10-31",
+      "status": true,
+      "id": 1
+    },
+    {
+      "title": "Todo ni tugat",
+      "owner": "Jahon",
+      "deadline": "2022-10-10",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Stajorlikni hal qi",
+      "owner": "Jahon",
+      "deadline": "2022-10-10",
+      "status": false,
+      "id": 3
+    }
+  ]
+}
